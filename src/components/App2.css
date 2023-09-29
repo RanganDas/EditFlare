@@ -1,0 +1,24 @@
+
+.responsive-hr {
+    border: 1px solid #000; /* Default border style */
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .responsive-hr {
+      border: 1px solid #000;
+      width: 30%; /* Adjust the width for small screens */
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 769px) {
+    .responsive-hr {
+      border: 1px solid #000;
+      width: 80%; /* Adjust the width for larger screens */
+    }
+  }
+
+
+
+  
